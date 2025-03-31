@@ -8,8 +8,10 @@ package autonoma.pilomorfismopokemon.models;
  *
  * @author usuario
  */
-public interface PokemonElectrico {
-    public abstract String atacarImpactruno();
-    public abstract String atacarPunioTrueno();
-    public abstract String atacarRayoCarga();
+public interface PokemonAgua {
+    public abstract String atacarHidroBomba();
+    public abstract String atacarPistolaAgua();
+    public abstract String atacarBurguja();
+    public abstract String atacarHidroPulso();
+    
 }

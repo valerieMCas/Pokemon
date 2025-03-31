@@ -60,13 +60,7 @@ public abstract class Pokemon {
     }
     //////////////////////////////////////////////////////////////////////////////////
     ////metodos
-    public void atacarPlancaje (){
-        
-    }
-    public void atacarAraniazo(){
-        
-    }
-    public void atacarMordisco(){
-        
-    }
+    public abstract String atacarPlancaje ();
+    public abstract String atacarAraniazo();
+    public abstract String atacarMordisco();
 }

@@ -8,6 +8,9 @@ package autonoma.pilomorfismopokemon.models;
  *
  * @author usuario
  */
-public class PokemonFuego {
+public interface PokemonFuego {
+    public abstract String atacarPunioFuego();
+    public abstract String atacarAcusas();
+    public abstract String atacarLanzaLlamas();
     
 }
