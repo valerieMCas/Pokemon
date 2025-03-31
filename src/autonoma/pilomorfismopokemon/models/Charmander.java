@@ -9,6 +9,13 @@ package autonoma.pilomorfismopokemon.models;
  * @author usuario
  */
 public class Charmander extends Pokemon implements PokemonFuego{
+    /**
+     * 
+     * @param numPokedex
+     * @param nombre
+     * @param pesoPokemon
+     * @param temporada 
+     */
 
     public Charmander(int numPokedex, String nombre, float pesoPokemon, String temporada) {
         super(numPokedex, nombre, pesoPokemon, temporada);
