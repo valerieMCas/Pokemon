@@ -26,7 +26,7 @@ public class PolimorfismoPokemon {
         Pokemon pokemonC= new Charmander (2,"Charmander", (float) 4.2,"Segunda temporada");
         Pokemon pokemon =new Bulbasaur (8,"Bulbasaur", (float) 8,"Primera temporada");
         PokemonAgua pokemonA = new Squirtle (14, "Squirtle", (float) 1.2,"Primera temporada");
-        PokemonElectrico pokemonE = new Pikachu (3, "Pikachu", (float) 5.6, "segunda temporada");
+        PokemonElectrico pokemonE = new Pikachu (3, "Pikachu", (float) 5.6, "Primera temporada");
         System.out.println (charmander.atacarAcusas()+ "\n") ;
         System.out.println (pokemonC.atacarPlancaje()+ "\n") ;
         System.out.println (pokemon.atacarMordisco()+ "\n");
